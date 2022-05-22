@@ -15,6 +15,6 @@ mongoose.connect("mongodb+srv://user:ISjwDttcDksEnCcv@cluster0.hja9z.mongodb.net
 
 app.use('/',route)
 
-app.listen(process.env.PORT || 3000,(err)=> {
+app.listen(process.env.PORT || 3000,()=> {
     console.log("connected to port 3000")
 })
